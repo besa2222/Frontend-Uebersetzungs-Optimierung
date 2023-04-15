@@ -1,0 +1,86 @@
+body{
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  background:#eff5f3;  
+}
+
+.container{
+  width: 100%;
+  border-radius:25px;
+  padding:2rem;
+}
+
+.wrapper{
+  border-radius: 10px;
+  border: 4px solid #f9dcd0;
+  position: relaive;
+  
+}
+.wrapper .input{
+  display:flex;
+  border-bottom: 4px solid #f9dcd0;
+}
+
+.wrapper .to{
+  border-radius:0px;
+  border-left: 4px solid #f9dcd0;
+ border-right: 4px solid #f9dcd0;
+}
+
+.wrapper .to-optimized {
+  border-radius:0px;
+  border-right: 4px solid #f9dcd0;
+}
+
+.input textarea{
+  height: 50vh;
+  width:100%;
+  border:none;
+  outline:none;
+  background:none;
+  font-size: 18px;
+  border-radius: 10px;
+  background: none;
+  padding: 10px 12px;
+  resize: none;
+}
+
+.select {
+  align-items: center;
+  display:flex;
+  justify-content: space-between;
+
+  padding: 1rem 2rem;
+   
+}
+
+
+.select .exchange{
+  cursor: pointer;
+}
+
+
+.select .from select{
+   border:none;
+   background:none;
+}
+
+.select .to select{
+   border:none;
+   background:none;
+}
+
+p{
+font-size:24px;
+}
+
+.btns {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+#result {
+  text-align: center;
+}
